@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">WolfNet</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_analysis">Analysis</string>
+    <string name="menu_devices">Devices</string>
+    <string name="menu_config">Config</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_contact">Contact</string>
+
+    <string name="button_settings">Settings</string>
+    <string name="button_about">About</string>
+    <string name="button_contact_us">Contact Us</string>
+    <string name="button_scan">Scan Network</string>
+    <string name="button_history">History</string>
+    <string name="button_config">Config Network</string>
+    <string name="button_connected">Devices</string>
+
+    <string name="copyright">Copyright since 2021</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Logged In: "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_analysis">AnalysisActivity</string>
+    <string name="large_text">Hi</string>
+    <string name="title_activity_analyze">AnalyzeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="cancel">Cancel</string>
+    <string name="password">Password</string>
+    <string name="attempts_left">Attempts Left:</string>
+    <string name="todo">TODO</string>
+    <string name="login">login</string>
+    <string name="tutorials_point">Tutorials point</string>
+    <string name="username">Username</string>
+    <string name="layout_fragment_analysis">layout/fragment_analysis</string>
+    <string name="smart_scan">Smart Scan</string>
+    <string name="quick_scan">Quick Scan</string>
+    <string name="full_scan">Full Scan</string>
+    <string name="device_1">Device 1</string>
+    <string name="connected_devices">Connected Devices</string>
+    <string name="device_2">Device 2</string>
+    <string name="device_3">Device 3</string>
+    <string name="device_4">Device 4</string>
+    <string name="todo1">TODO1</string>
+    <string name="logged_in_as_admin">Logged in as Admin</string>
+    <string name="network_configerations">Network Configerations</string>
+    <string name="wifi_network_name">Wifi Network Name:</string>
+    <string name="config_dns">Config DNS:</string>
+    <string name="router">Router:</string>
+    <string name="subnet_mask">Subnet Mask:</string>
+    <string name="ip_address">Ip Address:</string>
+    <string name="config_proxy">Config Proxy:</string>
+    <string name="textview">Unknown</string>
+    <string name="socials">Socials</string>
+    <string name="number">Number:</string>
+    <string name="email">Email:</string>
+    <string name="insta">Insta:</string>
+    <string name="fackbook">Fackbook:</string>
+    <string name="timezone">Timezone</string>
+    <string name="open_network_page">Open Network Page</string>
+    <string name="history">History</string>
+    <string name="device_1_connected_5h_ago">Device 1 Connected: 5h ago</string>
+    <string name="device_7_connected_a_moment_ago">Device 7 Connected: a moment ago</string>
+    <string name="device_3_disconnected_10_mins_ago">Device 3 Disconnected: 10 mins ago</string>
+    <string name="device_6_connected_a_moment_ago">Device 6 Connected: a moment ago</string>
+    <string name="device_4_connected_a_moment_ago">Device 4 Connected: a moment ago</string>
+    <string name="device_2_connected_3_mins_ago">Device 2 Connected: 3 mins ago</string>
+    <string name="device_5_connected_a_moment_ago">Device 5 Connected: a moment ago</string>
+
+
+</resources>

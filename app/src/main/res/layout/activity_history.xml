@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="294dp"
+        android:layout_height="57dp"
+        android:background="@drawable/buttons"
+        android:text="@string/history"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="525dp"
+        android:layout_marginTop="212dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/d1"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/device_1_connected_5h_ago"
+            android:textColor="#D84315" />
+
+        <Button
+            android:id="@+id/d2"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/device_2_connected_3_mins_ago"
+            android:textColor="#536DFE"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/d3"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/device_3_disconnected_10_mins_ago"
+            android:textColor="#D84315" />
+
+        <Button
+            android:id="@+id/d4"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/device_4_connected_a_moment_ago"
+            android:textColor="#536DFE"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/d5"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/device_5_connected_a_moment_ago"
+            android:textColor="#D84315" />
+
+        <Button
+            android:id="@+id/d6"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/device_6_connected_a_moment_ago"
+            android:textColor="#D84315" />
+
+        <Button
+            android:id="@+id/d7"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="@string/device_7_connected_a_moment_ago" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

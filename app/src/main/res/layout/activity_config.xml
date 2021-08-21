@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="418dp"
+        android:layout_height="126dp"
+        android:fontFamily="cursive"
+        android:outlineProvider="none"
+        android:text="@string/network_configerations"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="407dp"
+        android:layout_height="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.855">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/net2"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:outlineProvider="none"
+                android:text="@string/wifi_network_name"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/net"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ip"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="@string/ip_address"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/ip2"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/submask"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="@string/subnet_mask"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/submask2"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/router"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="@string/router"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/router2"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/dns"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="@string/config_dns"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/dns2"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="48dp"
+            android:layout_height="18dp">
+
+            <TextView
+                android:id="@+id/proxy"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="@string/config_proxy"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/proxy2"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/timezone"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="@string/timezone"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/timezone2"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/openpage"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/buttons"
+        android:text="@string/open_network_page"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#880ed5"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
