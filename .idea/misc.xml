@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/drawable/buttons.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/drawable/cell_shape.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/drawable/poop_foreground.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout-v29/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_analysis.xml" value="0.22" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_analyze2.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_config.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_contact.xml" value="0.22" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_devices.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_full_scan.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_history.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_login_form.xml" value="0.12" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_quick_scan.xml" value="0.171875" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_registration_form.xml" value="0.22" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_settings.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/activity_smart_scan.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/content_analysis.xml" value="0.1" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/content_analyze.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/content_main.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/rajva/AndroidStudioProjects/WolfNet2/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16666666666666666" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
